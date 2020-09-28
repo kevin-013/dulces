@@ -4,6 +4,7 @@
    
 }
 
+
 .carrusel{
     padding: 200px;
     width: 0%;
@@ -161,12 +162,12 @@ nav > a{
 
 
 footer{
-  background:#ffc0cb;
+  background:#ea899a;
   padding: 60px 0 30px;
   margin: auto;
   overflow: hidden;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 
   
@@ -193,12 +194,14 @@ footer{
 .contenedor-footer{
   display: flex;
   white-space: 90%;
+  border: none;
   justify-content: space-evenly;
   margin: auto;
   
 }
 .contenerdor-foo{
   text-align: center;
+  margin-bottom: 20px;
 }
 .contenerdor-foo h4{
 
@@ -213,6 +216,10 @@ margin-bottom: 10px;
   padding-bottom: 5px;
   margin-bottom: 10px;
   
+  }
+  .titulo-final{
+    font-size: 20px;
+    text-align: center;
   }
   @media screen and (max-width:1015px){
     header{
