@@ -4,6 +4,13 @@
    
 }
 
+.contenedor_general{
+  box-sizing: border-box;
+  padding-top: 0;
+  width: 1200px;
+  margin: 1000px auto;
+  border: 1px solid black;
+}
 
 .carrusel{
     padding: 200px;
@@ -62,7 +69,7 @@ nav > a{
 /* articulo 1*/
   .articulo1{
     padding-top: 7%;
-    padding: 60px 0 ;
+    padding: 20px 20px ;
      display: flex;
      width: 46%;
      height: 200px;
@@ -72,8 +79,16 @@ nav > a{
      float: left;
     overflow: hidden;
     
+    
+    margin: 1px;
+    border: 5px solid black;
+    
 
      
+  }
+  .contenidotexto1{
+    margin: 5px;
+    right: 10%;
   }
   
   
@@ -81,7 +96,7 @@ nav > a{
   /* articulo 2*/
   .articulo2{
     padding-top: 7%;
-    padding: 60px 0 ;
+    padding: 10px 10px ;
     display: flex;
     width: 46%;
     height: 200px;
@@ -90,14 +105,15 @@ nav > a{
     border-radius: 50px;
     float: left;
    overflow: hidden;
-    
-
+   
+    margin: 1px ;
+    border: 5px solid black;
      
   }
 
  /* articulo */
  .articulo3{
-  padding: 60px 0 ;
+  padding: 90px 10px ;
   padding-top: 7%;
      display: flex;
      width: 46%;
@@ -107,11 +123,14 @@ nav > a{
      border-radius: 50px;
      float: left;
     overflow: hidden;
+    margin: 1px ;
+    border: 5px solid black;
+
     
   }
  /* articulo 4*/
  .articulo4{
-  padding: 60px 0 ;
+  padding: 90px 10px ;
   padding-top: 7%;
      display: flex;
      width: 46%;
@@ -121,11 +140,13 @@ nav > a{
      border-radius: 50px;
      float: left;
     overflow: hidden;
+    margin: 1px ;
+    border: 5px solid black;
  }
  
  /* articulo 5*/
  .articulo5{
-  padding: 60px 0 ;
+  padding: 90px 10px ;
   padding-top: 7%;
      display: flex;
      width: 46%;
@@ -135,9 +156,11 @@ nav > a{
      border-radius: 50px;
      float: left;
     overflow: hidden;
+    margin: 1px ;
+    border: 5px solid black;
  }/* articulo 6*/
  .articulo6{
-  padding: 60px 0 ;
+  padding: 90px 10px ;
   padding-top: 7%;
      display: flex;
      width: 46%;
@@ -147,6 +170,8 @@ nav > a{
      border-radius: 50px;
      float: left;
     overflow: hidden;
+    margin: 1px ;
+    border: 5px solid black;
  }
 
  .contenedor{
@@ -174,7 +199,7 @@ footer{
 
 }
 .contenedor{
-  padding-top: 450px;
+  padding-top: 400px;
   padding-bottom: 500px;
   padding-right: 200px;
   text-align: center;
@@ -183,7 +208,24 @@ footer{
      height: 200px;
      align-items: center;
      justify-content: space-evenly;
+   
      
+}
+.image1{
+  display: inline-block;
+  position: relative;
+  width: 650px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  
+
+}
+
+.servicio{
+  padding: 90px 10px ;
+  padding-top: -900px;
+  padding-left: 400px;
 }
 
 .titulo1{
@@ -221,9 +263,10 @@ margin-bottom: 10px;
     font-size: 20px;
     text-align: center;
   }
-  @media screen and (max-width:1015px){
+  @media screen and (max-width:800px){
     header{
       background-position: center;
+      padding: 30px 0 0 0 ;
     }
 
     
