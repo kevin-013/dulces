@@ -3,12 +3,21 @@ var usuario,correo,contra,telefono,direccion,exprecion;
 usuario = document.getElementById("name").value;
 correo = document.getElementById("email").value;
 contra = document.getElementById("contra").value;
+contra2 = document.getElementById("contra2").value;
 telefono = document.getElementById("telefono").value;
 direccion = document.getElementById("direccion").value;
 
 exprecion = /\w+@\w+\.+[a-z]/;
 
- 
+/*validacion de contraceñas */ 
+if (contra == contra2 ){
+    
+}else{
+    alert("la contraseña no coincide ");
+    return false;
+}
+
+
 
 /*Inicio validacion de campo vacio*/ 
 
@@ -39,6 +48,7 @@ if (contra === ""){
     return false;
 }
 /*fin */
+
 
 
 
