@@ -47,6 +47,10 @@ if (contra === ""){
     alert("El campo contraceña esta vacio");
     return false;
 }
+if (contra2 === ""){
+    alert("El campo contraceña esta vacio");
+    return false;
+}
 /*fin */
 
 
@@ -86,6 +90,11 @@ else if (contra.length>15){
     
 }
 
+else if (contra2.length>15){
+    alert("Contraseña muy larga");
+    return false;
+    
+}
 /*fin */
 
 
